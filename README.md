@@ -52,11 +52,15 @@ docker compose up --build
 ```
 После запуска приложение будет доступно:
 
-http://localhost:8080/techStore
+- http://localhost:8080/techStore/swagger-ui/index.html
+
+ Корень проекта: 
+
+- http://localhost:8080/techStore
 
 ## 🌐 Демо
 
-Приложение развернуто и доступно онлайн:
+Приложение развернуто и доступно онлайн на моем сервере:
 
 Swagger UI:
 http://77.66.185.97:8080/techStore/swagger-ui/index.html
