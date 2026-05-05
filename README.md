@@ -58,7 +58,7 @@ docker compose up --build
 
 - http://localhost:8080/techStore
 
-## 🌐 Демо
+## 🌐 Мой сервер
 
 Приложение развернуто и доступно онлайн на моем сервере:
 
@@ -90,14 +90,15 @@ http://localhost:8080/techStore/v3/api-docs
 Параметры подключения:
 
 - Host: localhost
-- Port: 5432
+- Port: 5439
 - Database: postgres
 - User: postgres
 - Password: postgres
 
 JDBC URL:
 
-- jdbc:postgresql://localhost:5432/postgres
+- jdbc:postgresql://localhost:5439/postgres
+
 ## 📡 Основные endpoints
 
 Desktop Computers
