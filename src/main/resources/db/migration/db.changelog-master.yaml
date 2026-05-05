@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - include:
+      file: 001-create-desktop-computers-table.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: 005-insert-default-data.yaml
+      relativeToChangelogFile: true
+

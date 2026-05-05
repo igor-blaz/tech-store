@@ -1,0 +1,31 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /techStore
+
+spring:
+  datasource:
+    url: jdbc:postgresql://techStore-database:5432/techStore
+    username: postgres
+    password: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+
+  liquibase:
+    change-log: classpath:db/migration/db.changelog-master.yaml
+
+logging:
+  level:
+    root: info
+    org.springframework: info
+    org.hibernate: warn
+    org.apache: info
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: mappings

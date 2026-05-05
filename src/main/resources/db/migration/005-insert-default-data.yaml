@@ -1,0 +1,677 @@
+databaseChangeLog:
+  - changeSet:
+      id: 005-insert-default-data
+      author: igor
+      changes:
+        - insert:
+            tableName: desktop_computers
+            columns:
+              - column:
+                  name: name
+                  value: Lenovo ThinkCentre M70
+              - column:
+                  name: serial_number
+                  value: DT-001
+              - column:
+                  name: manufacturer
+                  value: Lenovo
+              - column:
+                  name: price
+                  valueNumeric: 700
+              - column:
+                  name: quantity
+                  valueNumeric: 5
+              - column:
+                  name: form_factor
+                  value: DESKTOP
+        - insert:
+            tableName: desktop_computers
+            columns:
+              - column:
+                  name: name
+                  value: HP EliteDesk 800
+              - column:
+                  name: serial_number
+                  value: DT-002
+              - column:
+                  name: manufacturer
+                  value: HP
+              - column:
+                  name: price
+                  valueNumeric: 850
+              - column:
+                  name: quantity
+                  valueNumeric: 3
+              - column:
+                  name: form_factor
+                  value: DESKTOP
+        - insert:
+            tableName: desktop_computers
+            columns:
+              - column:
+                  name: name
+                  value: Acer Veriton X
+              - column:
+                  name: serial_number
+                  value: DT-003
+              - column:
+                  name: manufacturer
+                  value: Acer
+              - column:
+                  name: price
+                  valueNumeric: 600
+              - column:
+                  name: quantity
+                  valueNumeric: 6
+              - column:
+                  name: form_factor
+                  value: NETTOP
+        - insert:
+            tableName: desktop_computers
+            columns:
+              - column:
+                  name: name
+                  value: Dell OptiPlex 7090
+              - column:
+                  name: serial_number
+                  value: DT-004
+              - column:
+                  name: manufacturer
+                  value: Dell
+              - column:
+                  name: price
+                  valueNumeric: 900
+              - column:
+                  name: quantity
+                  valueNumeric: 4
+              - column:
+                  name: form_factor
+                  value: DESKTOP
+        - insert:
+            tableName: desktop_computers
+            columns:
+              - column:
+                  name: name
+                  value: Apple iMac 24
+              - column:
+                  name: serial_number
+                  value: DT-005
+              - column:
+                  name: manufacturer
+                  value: Apple
+              - column:
+                  name: price
+                  valueNumeric: 1500
+              - column:
+                  name: quantity
+                  valueNumeric: 2
+              - column:
+                  name: form_factor
+                  value: MONOBLOCK
+        - insert:
+            tableName: desktop_computers
+            columns:
+              - column:
+                  name: name
+                  value: ASUS Mini PC
+              - column:
+                  name: serial_number
+                  value: DT-006
+              - column:
+                  name: manufacturer
+                  value: ASUS
+              - column:
+                  name: price
+                  valueNumeric: 550
+              - column:
+                  name: quantity
+                  valueNumeric: 7
+              - column:
+                  name: form_factor
+                  value: NETTOP
+        - insert:
+            tableName: desktop_computers
+            columns:
+              - column:
+                  name: name
+                  value: MSI Pro DP20
+              - column:
+                  name: serial_number
+                  value: DT-007
+              - column:
+                  name: manufacturer
+                  value: MSI
+              - column:
+                  name: price
+                  valueNumeric: 650
+              - column:
+                  name: quantity
+                  valueNumeric: 5
+              - column:
+                  name: form_factor
+                  value: NETTOP
+        - insert:
+            tableName: desktop_computers
+            columns:
+              - column:
+                  name: name
+                  value: HP Pavilion All-in-One
+              - column:
+                  name: serial_number
+                  value: DT-008
+              - column:
+                  name: manufacturer
+                  value: HP
+              - column:
+                  name: price
+                  valueNumeric: 1200
+              - column:
+                  name: quantity
+                  valueNumeric: 3
+              - column:
+                  name: form_factor
+                  value: MONOBLOCK
+        - insert:
+            tableName: laptops
+            columns:
+              - column:
+                  name: name
+                  value: MacBook Air M2
+              - column:
+                  name: serial_number
+                  value: LP-001
+              - column:
+                  name: manufacturer
+                  value: Apple
+              - column:
+                  name: price
+                  valueNumeric: 1200
+              - column:
+                  name: quantity
+                  valueNumeric: 4
+              - column:
+                  name: screen_size
+                  valueNumeric: 13
+        - insert:
+            tableName: laptops
+            columns:
+              - column:
+                  name: name
+                  value: Lenovo ThinkPad X1
+              - column:
+                  name: serial_number
+                  value: LP-002
+              - column:
+                  name: manufacturer
+                  value: Lenovo
+              - column:
+                  name: price
+                  valueNumeric: 1400
+              - column:
+                  name: quantity
+                  valueNumeric: 3
+              - column:
+                  name: screen_size
+                  valueNumeric: 14
+        - insert:
+            tableName: laptops
+            columns:
+              - column:
+                  name: name
+                  value: Dell XPS 15
+              - column:
+                  name: serial_number
+                  value: LP-003
+              - column:
+                  name: manufacturer
+                  value: Dell
+              - column:
+                  name: price
+                  valueNumeric: 1600
+              - column:
+                  name: quantity
+                  valueNumeric: 2
+              - column:
+                  name: screen_size
+                  valueNumeric: 15
+        - insert:
+            tableName: laptops
+            columns:
+              - column:
+                  name: name
+                  value: HP Spectre x360
+              - column:
+                  name: serial_number
+                  value: LP-004
+              - column:
+                  name: manufacturer
+                  value: HP
+              - column:
+                  name: price
+                  valueNumeric: 1300
+              - column:
+                  name: quantity
+                  valueNumeric: 5
+              - column:
+                  name: screen_size
+                  valueNumeric: 13
+        - insert:
+            tableName: laptops
+            columns:
+              - column:
+                  name: name
+                  value: Acer Aspire 5
+              - column:
+                  name: serial_number
+                  value: LP-005
+              - column:
+                  name: manufacturer
+                  value: Acer
+              - column:
+                  name: price
+                  valueNumeric: 700
+              - column:
+                  name: quantity
+                  valueNumeric: 6
+              - column:
+                  name: screen_size
+                  valueNumeric: 15
+        - insert:
+            tableName: laptops
+            columns:
+              - column:
+                  name: name
+                  value: ASUS ROG Strix
+              - column:
+                  name: serial_number
+                  value: LP-006
+              - column:
+                  name: manufacturer
+                  value: ASUS
+              - column:
+                  name: price
+                  valueNumeric: 1800
+              - column:
+                  name: quantity
+                  valueNumeric: 2
+              - column:
+                  name: screen_size
+                  valueNumeric: 17
+        - insert:
+            tableName: laptops
+            columns:
+              - column:
+                  name: name
+                  value: MSI Katana
+              - column:
+                  name: serial_number
+                  value: LP-007
+              - column:
+                  name: manufacturer
+                  value: MSI
+              - column:
+                  name: price
+                  valueNumeric: 1500
+              - column:
+                  name: quantity
+                  valueNumeric: 3
+              - column:
+                  name: screen_size
+                  valueNumeric: 15
+        - insert:
+            tableName: laptops
+            columns:
+              - column:
+                  name: name
+                  value: Huawei MateBook D
+              - column:
+                  name: serial_number
+                  value: LP-008
+              - column:
+                  name: manufacturer
+                  value: Huawei
+              - column:
+                  name: price
+                  valueNumeric: 800
+              - column:
+                  name: quantity
+                  valueNumeric: 4
+              - column:
+                  name: screen_size
+                  valueNumeric: 14
+        - insert:
+            tableName: monitors
+            columns:
+              - column:
+                  name: name
+                  value: LG UltraWide 34
+              - column:
+                  name: serial_number
+                  value: MN-001
+              - column:
+                  name: manufacturer
+                  value: LG
+              - column:
+                  name: price
+                  valueNumeric: 500
+              - column:
+                  name: quantity
+                  valueNumeric: 5
+              - column:
+                  name: diagonal
+                  valueNumeric: 34
+        - insert:
+            tableName: monitors
+            columns:
+              - column:
+                  name: name
+                  value: Samsung Odyssey G5
+              - column:
+                  name: serial_number
+                  value: MN-002
+              - column:
+                  name: manufacturer
+                  value: Samsung
+              - column:
+                  name: price
+                  valueNumeric: 450
+              - column:
+                  name: quantity
+                  valueNumeric: 4
+              - column:
+                  name: diagonal
+                  valueNumeric: 27
+        - insert:
+            tableName: monitors
+            columns:
+              - column:
+                  name: name
+                  value: Dell UltraSharp U2720Q
+              - column:
+                  name: serial_number
+                  value: MN-003
+              - column:
+                  name: manufacturer
+                  value: Dell
+              - column:
+                  name: price
+                  valueNumeric: 600
+              - column:
+                  name: quantity
+                  valueNumeric: 3
+              - column:
+                  name: diagonal
+                  valueNumeric: 27
+        - insert:
+            tableName: monitors
+            columns:
+              - column:
+                  name: name
+                  value: ASUS TUF Gaming VG32
+              - column:
+                  name: serial_number
+                  value: MN-004
+              - column:
+                  name: manufacturer
+                  value: ASUS
+              - column:
+                  name: price
+                  valueNumeric: 400
+              - column:
+                  name: quantity
+                  valueNumeric: 5
+              - column:
+                  name: diagonal
+                  valueNumeric: 32
+        - insert:
+            tableName: monitors
+            columns:
+              - column:
+                  name: name
+                  value: Acer Nitro XV272
+              - column:
+                  name: serial_number
+                  value: MN-005
+              - column:
+                  name: manufacturer
+                  value: Acer
+              - column:
+                  name: price
+                  valueNumeric: 350
+              - column:
+                  name: quantity
+                  valueNumeric: 6
+              - column:
+                  name: diagonal
+                  valueNumeric: 27
+        - insert:
+            tableName: monitors
+            columns:
+              - column:
+                  name: name
+                  value: BenQ PD2700U
+              - column:
+                  name: serial_number
+                  value: MN-006
+              - column:
+                  name: manufacturer
+                  value: BenQ
+              - column:
+                  name: price
+                  valueNumeric: 550
+              - column:
+                  name: quantity
+                  valueNumeric: 2
+              - column:
+                  name: diagonal
+                  valueNumeric: 27
+        - insert:
+            tableName: monitors
+            columns:
+              - column:
+                  name: name
+                  value: Philips 328E1CA
+              - column:
+                  name: serial_number
+                  value: MN-007
+              - column:
+                  name: manufacturer
+                  value: Philips
+              - column:
+                  name: price
+                  valueNumeric: 420
+              - column:
+                  name: quantity
+                  valueNumeric: 3
+              - column:
+                  name: diagonal
+                  valueNumeric: 32
+        - insert:
+            tableName: monitors
+            columns:
+              - column:
+                  name: name
+                  value: LG 27GP850
+              - column:
+                  name: serial_number
+                  value: MN-008
+              - column:
+                  name: manufacturer
+                  value: LG
+              - column:
+                  name: price
+                  valueNumeric: 480
+              - column:
+                  name: quantity
+                  valueNumeric: 4
+              - column:
+                  name: diagonal
+                  valueNumeric: 27
+        - insert:
+            tableName: hard_drives
+            columns:
+              - column:
+                  name: name
+                  value: Seagate Barracuda 1TB
+              - column:
+                  name: serial_number
+                  value: HD-001
+              - column:
+                  name: manufacturer
+                  value: Seagate
+              - column:
+                  name: price
+                  valueNumeric: 50
+              - column:
+                  name: quantity
+                  valueNumeric: 10
+              - column:
+                  name: capacity
+                  valueNumeric: 1000
+        - insert:
+            tableName: hard_drives
+            columns:
+              - column:
+                  name: name
+                  value: WD Blue 2TB
+              - column:
+                  name: serial_number
+                  value: HD-002
+              - column:
+                  name: manufacturer
+                  value: Western Digital
+              - column:
+                  name: price
+                  valueNumeric: 80
+              - column:
+                  name: quantity
+                  valueNumeric: 8
+              - column:
+                  name: capacity
+                  valueNumeric: 2000
+        - insert:
+            tableName: hard_drives
+            columns:
+              - column:
+                  name: name
+                  value: Samsung 970 EVO 1TB SSD
+              - column:
+                  name: serial_number
+                  value: HD-003
+              - column:
+                  name: manufacturer
+                  value: Samsung
+              - column:
+                  name: price
+                  valueNumeric: 120
+              - column:
+                  name: quantity
+                  valueNumeric: 6
+              - column:
+                  name: capacity
+                  valueNumeric: 1000
+        - insert:
+            tableName: hard_drives
+            columns:
+              - column:
+                  name: name
+                  value: Kingston A400 480GB SSD
+              - column:
+                  name: serial_number
+                  value: HD-004
+              - column:
+                  name: manufacturer
+                  value: Kingston
+              - column:
+                  name: price
+                  valueNumeric: 40
+              - column:
+                  name: quantity
+                  valueNumeric: 12
+              - column:
+                  name: capacity
+                  valueNumeric: 480
+        - insert:
+            tableName: hard_drives
+            columns:
+              - column:
+                  name: name
+                  value: Crucial MX500 1TB SSD
+              - column:
+                  name: serial_number
+                  value: HD-005
+              - column:
+                  name: manufacturer
+                  value: Crucial
+              - column:
+                  name: price
+                  valueNumeric: 100
+              - column:
+                  name: quantity
+                  valueNumeric: 7
+              - column:
+                  name: capacity
+                  valueNumeric: 1000
+        - insert:
+            tableName: hard_drives
+            columns:
+              - column:
+                  name: name
+                  value: Seagate IronWolf 4TB
+              - column:
+                  name: serial_number
+                  value: HD-006
+              - column:
+                  name: manufacturer
+                  value: Seagate
+              - column:
+                  name: price
+                  valueNumeric: 150
+              - column:
+                  name: quantity
+                  valueNumeric: 5
+              - column:
+                  name: capacity
+                  valueNumeric: 4000
+        - insert:
+            tableName: hard_drives
+            columns:
+              - column:
+                  name: name
+                  value: WD Black 2TB
+              - column:
+                  name: serial_number
+                  value: HD-007
+              - column:
+                  name: manufacturer
+                  value: Western Digital
+              - column:
+                  name: price
+                  valueNumeric: 140
+              - column:
+                  name: quantity
+                  valueNumeric: 4
+              - column:
+                  name: capacity
+                  valueNumeric: 2000
+        - insert:
+            tableName: hard_drives
+            columns:
+              - column:
+                  name: name
+                  value: Samsung 980 PRO 2TB SSD
+              - column:
+                  name: serial_number
+                  value: HD-008
+              - column:
+                  name: manufacturer
+                  value: Samsung
+              - column:
+                  name: price
+                  valueNumeric: 200
+              - column:
+                  name: quantity
+                  valueNumeric: 3
+              - column:
+                  name: capacity
+                  valueNumeric: 2000
