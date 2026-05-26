@@ -52,18 +52,18 @@ docker compose up --build
 ```
 После запуска приложение будет доступно:
 
-- http://localhost:8080/techStore/swagger-ui/index.html
+- http://localhost:8070/techStore/swagger-ui/index.html
 
  Корень проекта: 
 
-- http://localhost:8080/techStore
+- http://localhost:8070/techStore
 
 ## 🌐 Мой сервер
 
 Приложение развернуто и доступно онлайн на моем сервере:
 
 Swagger UI:
-http://77.66.185.97:8080/techStore/swagger-ui/index.html
+http://77.66.185.97:8070/techStore/swagger-ui/index.html
 
 Можно сразу протестировать API без локального запуска.
 
@@ -71,11 +71,11 @@ http://77.66.185.97:8080/techStore/swagger-ui/index.html
 
 Swagger UI:
 
-http://localhost:8080/techStore/swagger-ui/index.html
+http://localhost:8070/techStore/swagger-ui/index.html
 
 OpenAPI JSON:
 
-http://localhost:8080/techStore/v3/api-docs
+http://localhost:8070/techStore/v3/api-docs
 
 ## 🗄 База данных
 
